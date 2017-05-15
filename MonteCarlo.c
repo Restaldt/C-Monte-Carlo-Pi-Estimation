@@ -15,7 +15,7 @@ double randfrom(double min, double max)
 
 int main(){
 	printf("Monte Carlo Pi Estimation: \n\n");
-
+	//max rounds is INT_MAX / 4
 	printf("Enter how many rounds of Monte Carlo you want to estimate pi with: (1-%d)",(INT_MAX-1)/4);
 	int rounds = 0;
 	scanf("%d",&rounds);
